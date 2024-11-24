@@ -7,7 +7,6 @@
 *   **`extract_ipsw.py`**:  此脚本用于提取 IPSW 文件内容。
     *   **依赖**:
         *   [ipsw](https://github.com/blacktop/ipsw):  一个用于下载和处理 IPSW 文件的命令行工具。请按照其官方文档进行安装和配置。
-        *   Python 标准库:  `os`, `glob`, `subprocess`, `time`。
     *   **使用方法**:
         1. **获取 IPSW 文件**:  你可以通过以下网站下载所需的 IPSW 文件：
             *   [ipsw.me](https://ipsw.me/)
@@ -15,7 +14,6 @@
         2. **提取 IPSW 内容**: 将 `extract_ipsw.py` 脚本放置于 IPSW 文件所在目录，然后执行该脚本即可。
 *   **`fix.py`**: 此脚本用于将 `input` 文件夹中的字体文件转换为 Windows 系统可用的格式。
     *   **依赖**:
-        *   Python 标准库:  `os`, `sys`, `logging`, `traceback`
         *   `fontTools`: 第三方字体处理库。请在使用前确保已安装所需依赖。可以使用以下命令安装 `fontTools`：
 
             ```bash
