@@ -4,7 +4,7 @@
 
 ## 文件说明
 
-*   **`extract_ipsw.py`**:  此脚本用于提取 IPSW (iOS 软件更新) 文件内容。
+*   **`extract_ipsw.py`**:  此脚本用于提取 IPSW 文件内容。
     *   **依赖**:
         *   [ipsw](https://github.com/blacktop/ipsw):  一个用于下载和处理 IPSW 文件的命令行工具。请按照其官方文档进行安装和配置。
         *   Python 标准库:  `os`, `glob`, `subprocess`, `time`。
