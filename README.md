@@ -12,8 +12,7 @@
         1. **获取 IPSW 文件**:  你可以通过以下网站下载所需的 IPSW 文件：
             *   [ipsw.me](https://ipsw.me/)
             *   [ipsw.dev](https://ipsw.dev/)
-        2. **提取 IPSW 内容**: 将 `extract_ipsw.py` 脚本放置于 IPSW 文件所在目录，然后执行该脚本即可。脚本会自动在当前目录下创建一个与 IPSW 文件同名的文件夹，并将提取出的内容保存在该文件夹中。
-            *   **注意**: 此脚本可能需要根据 `ipsw` 工具的输出进行调整，以确保正确提取文件。
+        2. **提取 IPSW 内容**: 将 `extract_ipsw.py` 脚本放置于 IPSW 文件所在目录，然后执行该脚本即可。
 *   **`fix.py`**: 此脚本用于将 `input` 文件夹中的字体文件转换为 Windows 系统可用的格式。
     *   **依赖**:
         *   Python 标准库:  `os`, `sys`, `logging`, `traceback`
